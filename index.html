@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🎮Hangman Game🕹️</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="./hangman.png">
+</head>
+<body>
+    <div class="container">
+
+        <button id="start" class="start">Start the game</button>
+        <canvas id="canvas" class="canvas" width="275px" height="285px"></canvas>
+        <div id="out_put" class="out_put"></div>
+        <input id="input" class="input" placeholder="Write your guess. One letter." type="text" maxlength="1">
+        <div id="attempts" class="attempts">Attempts left</div>
+        <div id="letters" class="letters">Guessed letters: </div>
+        <div id="hint" class="hint">Hint</div>
+        <button id="submit" class="submit">Guess</button>
+
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
